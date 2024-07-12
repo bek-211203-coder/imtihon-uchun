@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+body {
+    color: gray;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header__hero {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hero-call {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero-call .link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.hero-call .link a {
+    text-decoration: none;
+    color: gray;
+    transition: .5s;
+}
+
+.hero-call .link a:hover {
+    color: black;
+}
+
+.hero-all .list-all {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.list-all .list {
+    list-style: none;
+}
+
+.list a {
+    text-decoration: none;
+    color: gray;
+    transition: .5s;
+
+}
+
+.list a:hover {
+    color: black;
+}
+
+.list .mediaclub {
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.list .mediablog {
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.list .medi {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+/* nav section  */
+
+.nav__full {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.nav-katalog {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: red;
+    padding: 13px 20px;
+    border-radius: 15px;
+
+    a {
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 500;
+        color: #fff;
+    }
+}
+
+.search form {
+    border: 1px solid grey;
+    border-radius: 15px;
+    width: 500px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3px 0 15px;
+}
+
+.search form input {
+    border: none;
+    outline: none;
+}
+
+
+
+.search form button {
+    border: none;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/* .search form input:checked{} */
+
+.icons-full {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.box-icon .iconnav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 8px;
+    color: black;
+    font-size: 15px;
+    transition: .5s;
+}
+
+/* aksiyalar section */
+
+.hero__row-list {
+    margin-bottom: 30px;
+}
+
+.hero__row-list .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+
+    a {
+        text-decoration: none;
+        font-size: 14px;
+        color: gray;
+        transition: .5s;
+    }
+
+    a:hover {
+        color: rgb(1, 1, 95);
+    }
+
+}
+
+.row .row-list__full .action {
+    background-color: rgb(152, 228, 37);
+    padding: 10px 25px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+/* hero img */
+
+.images {
+    margin-bottom: 60px;
+}
+
+/*  */
+.Popular {
+    display: flex;
+    flex-direction: column;
+}
+
+.Popular .hero-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+    h2 {
+        font-size: 40px;
+        color: rgb(1, 1, 56);
+        font-weight: 600;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 600;
+        color: rgb(1, 1, 56);
+
+    }
+}
+
+.equipment-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.equipment-info .equipment {
+    display: flex;
+    width: 225px;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.614);
+    border-radius: 15px;
+    padding: 15px 20px 15px 15px;
+
+    .boxs {
+        background-color: rgba(255, 147, 147, 0.625);
+        padding: 8px;
+        border-radius: 5px;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 600;
+        color: rgb(1, 1, 56);
+    }
+}
